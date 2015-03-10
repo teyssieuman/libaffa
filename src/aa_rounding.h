@@ -35,6 +35,7 @@
 //typedef fp_rnd aa_rnd_t;
 //#endif
 //#else
+#define _GLIBCXX_HAVE_FENV_H 1
 #include <fenv.h>
 #define AA_UPWARD FE_UPWARD
 #define AA_DOWNWARD FE_DOWNWARD
